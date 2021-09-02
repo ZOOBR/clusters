@@ -12,6 +12,7 @@ type Coordinates []float64
 type Observation interface {
 	Coordinates() Coordinates
 	Distance(point Coordinates) float64
+	Data Interface{}
 }
 
 // Observations is a slice of observations
