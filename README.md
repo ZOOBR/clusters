@@ -6,7 +6,7 @@ computations in n-dimensional spaces.
 ## Example
 
 ```go
-import "github.com/muesli/clusters"
+import "github.com/zoobr/clusters"
 
 // fake some observations
 var o clusters.Observations
