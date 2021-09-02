@@ -6,7 +6,11 @@ import (
 )
 
 // Coordinates is a slice of float64
-type Coordinates []float64
+type Coordinates struct {
+	Lat float64
+	Lon float64
+	Data interface{}
+}
 
 // Observation is a data point (float64 between 0.0 and 1.0) in n dimensions
 type Observation interface {
